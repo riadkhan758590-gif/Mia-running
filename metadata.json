@@ -1,0 +1,6 @@
+{
+  "name": "Mafia Runner",
+  "description": "A side-scrolling runner game where you chase a target across gaps of buses. Choose your character and try to survive!",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

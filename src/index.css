@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+:root {
+  --bg-color: #0b0e14;
+  --accent-yellow: #ffcc00;
+  --danger-red: #ff4444;
+  --ui-glass: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: white;
+}
+
+.glass-morphism {
+  background: var(--ui-glass);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.stars-bg {
+    background-image: radial-gradient(white 1px, transparent 1px);
+    background-size: 50px 50px;
+}
